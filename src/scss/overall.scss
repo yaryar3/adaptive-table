@@ -1,0 +1,140 @@
+$var1: #FFFFFF;
+$var2: #11223E;
+$var3: #F8E71C;
+$var4: #FC3969;
+
+
+html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	font-family: "HarmoniaSansProCyr-Regular" ;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: inherit;
+}
+.goldfish {
+	max-width: 1200px;
+	height: 1100px;
+	padding: 83px 60px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background: $var1;
+}
+.content {
+	max-width: 1080px;
+	min-height: 934px;
+	background: white;
+	color: $var2;
+}
+.first {
+	padding: 40px 40px 30px 40px;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+.second {
+	margin: 0 40px 30px 40px;
+	max-width: 1000px;
+	height: 40px;
+	background: rgba(248, 231, 28, 0.15);
+	mix-blend-mode: normal;
+	align-items: center;
+	border-radius: 5px;
+	&__text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+}
+.top-3 {
+	width: 43px;
+	height: 18px;
+	background: $var1;
+	border-radius: 0px 5px 5px 0px;
+	font-size: 12px;
+	line-height: 8px;
+	padding-top: 5px;
+	padding-left: 1px;
+	padding-right: 6px;
+}
+.opacity50 {
+	opacity: 0.5;
+}
+.yellow {
+	width: 39px;
+	height: 18px;
+	background: $var3;
+	border-radius: 5px 0px 0px 5px;
+	font-size: 12px;
+	line-height: 8px;
+	letter-spacing: 0px;
+	padding-top: 5px;
+	padding-left: 6px;
+	padding-right: 1px;
+}
+.icon {
+	padding: 13px 10px 13px 25px;
+}
+.search {
+	height: 40px;
+	width: 240px;
+	border-radius: 5px;
+	background: $var1;
+	border: 1px solid rgba(34, 62, 105, 0.1);
+	border-radius: 5px;
+	padding-left: 16px;
+}
+.device1 {
+	height: 40px;
+	width: 105px;
+	background: $var1;
+	border: 1px solid rgba(34, 62, 105, 0.2);
+	border-radius: 5px 0px 0px 5px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.device2 {
+	height: 40px;
+	width: 105px;
+	margin-left: -5px;
+	border: 1px solid rgba(17, 34, 62, 0.07);
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+	color: rgba(17, 34, 62, 0.5);
+	background: $var1;
+}
+.download {
+	color: $var2;
+	height: 40px;
+	width: 142px;
+	border-radius: 5px;
+	border: 1px solid rgb(34, 62, 105, 0.2);
+	background: $var1;
+	mix-blend-mode: normal;
+	border-radius: 5px;
+	margin-left: 188px;
+	font-size: 16px;
+	line-height: 11px;
+	letter-spacing: 0px;
+	text-align: center;
+	color: $var2;
+	cursor: pointer;
+}
+.add-request {
+	height: 40px;
+	width: 169px;
+	margin-left: 20px;
+	border-radius: 5px;
+	border-color: $var4;
+	background: $var4;
+	box-shadow: 0px 3px 7px rgba(252, 57, 105, 0.3);
+	line-height: 11px;
+	letter-spacing: 0px;
+	color: $var1;
+	cursor: pointer;
+}

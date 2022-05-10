@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1045px) {
+    .download {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 957px) {
+    .download {
+        margin-left: 30px;
+        font-size: 11px;
+    }
+    .add-request {
+        font-size: 11px;
+    }
+    .device1 {
+        font-size: 11px;
+        
+    }
+    .device2 {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .download {
+        width: 120px;
+    }
+    .add-request {
+        width: 120px;
+    }
+    .device1 {
+        width: 120px;
+        
+    }
+    .device2 {
+        width: 120px;
+    }
+    .search {
+        width: 120px;
+    }
+    th {
+       width: 215px;
+       font-size: 11px;
+      
+   }
+   .column-second {
+       left: 215px;
+       font-size: 12px;
+       width: 68px;
+    }
+    .inner {
+       margin-left: 282px;
+    }
+   .star {
+        position: absolute;
+        right: -17px;
+    }
+    #rotateimg1 {
+        position: absolute;
+        right: -29px;
+        top: 20px;
+    }
+    #rotateimg2 {
+        position: absolute;
+        right: -66px;
+        top: 20px;
+    }
+}
+@media only screen and (max-width: 642px) {
+   
+   .first{
+    display: flex;
+  flex-direction: column;
+  height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+   } 
+   .download {
+    width: 220px;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    
+    
+}
+.add-request {
+    width: 220px;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+.device1 {
+    width: 220px;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+.device2 {
+    width: 220px;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.search {
+    width: 220px;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+   .second {
+       height: 87px;
+   }
+   .second__text {  
+       display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .goldfish {
+        padding: 83px 0;
+    }
+    .second__text {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+    
+    .third {
+        margin: 0 0 40px 0;
+    }
+ }
+
+ @media only screen and (max-width: 522px) {
+ .second__text {  
+    display: flex;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     height: 100%;
+ }
+}
+ @media only screen and (max-width: 392px) {
+    .second {
+        height: 108px;
+    }
+     .opacity50 {
+         text-align: center;
+        
+     }
+ }
+ 
